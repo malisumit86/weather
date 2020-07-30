@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/img/weather.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <title>help</title>
+</head>
+
+<body>
+    <div class="main_content">
+        {{>header}}
+        <div class="content">
+            <p id="info_text">{{helptext}}</p>
+
+            <div id="help_id">
+                <ul>
+                    <li>The Web Application Design On Node.js and front end Tool</li>
+                    <li>Where You Can Place the inforomation about
+                        the Venue and It will provide corresponding data.</li>
+
+                    <li>
+                        <dl>
+                            <dt>Used API : </dt>
+                            <dd>- OpenWeatheAPI for forcast</dd>
+                            <dd>- mapbox for geocoding coordinates</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt> Guide : </dt>
+                            <dd>- Andrew Mead</dd>
+
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    {{>footer}}
+</body>
+
+</html>
